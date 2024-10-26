@@ -13,6 +13,7 @@ public class RataNilai04 {
         i=1;
         while (i<=5) {
             totalNilai=0;
+            System.out.println("Input nilai mahasiswa ke " + i );
             for (j=1;j<=5;j++){
                 System.out.print("Nilai ke-" + j + " = ");
                 nilaiMhs = sc.nextInt();
@@ -20,6 +21,7 @@ public class RataNilai04 {
             }
             rataNilai=totalNilai/5;
             System.out.println("Rata-rata nilai mahasiswa ke-" + i + ": " + rataNilai);
+            
             i++;
         }
         sc.close();
